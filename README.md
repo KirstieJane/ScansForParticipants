@@ -22,17 +22,23 @@ Pick your T1-weighted scan for participant gift distribution. This is usually an
 
 ### Step 4. Creating a video of your ```high_res.nii.gz``` file
 Dependencies: Anaconda (or miniconda), nibabel, ImageJ
-If you already have a version of Conda installed, please check using: ```conda info```
+If you already have a version of Conda installed, please check your version using: ```conda info```
 
 The code used in the following steps has been tested using python version 2.7. If you are using python 3.x, you may encounter some problems. If you do contact [KirstieJane](https://github.com/KirstieJane/).
 
-If you do not have anaconda installed, please install this using these instructions.
+If you do not have anaconda or miniconda installed, please install this using these instructions.
 Download [Anaconda](https://www.continuum.io/downloads) with python version 2.7 and follow the download instructions.
 Check your version by typing ```conda info```.
 
-After installing anacoda, install nibabel by typing in your terminal ```pip install nibabel```
+After installing anaconda, install nibabel by typing in your terminal ```pip install nibabel```
 
-Download and install [ImageJ](http://rsb.info.nih.gov/ij/download.html).
+Download and install [ImageJ](http://rsb.info.nih.gov/ij/download.html) using instructions provided on the download page.
+
+After you have downloaded all your programs you are ready to create your PNG files from which your awesome videos will be created.
+
+1. Download all the python scripts (or the entire folder) using the Download ZIP button.
+2. Open terminal and change to your working directory
+3. 
 
 
 
