@@ -37,9 +37,30 @@ Download and install [ImageJ](http://rsb.info.nih.gov/ij/download.html) using in
 After you have downloaded all your programs you are ready to create your PNG files from which your awesome videos will be created.
 
 1. Download all the python scripts (or the entire folder) using the Download ZIP button.
-2. Open terminal and change to your working directory
-3. 
+2. Open terminal and change to your working directory, e.g.
 
+   ```
+   cd ~/User/Documents/ScansForParticipants
+   ```
+3. We will be using the MakePngs_HighRes.py script for creating the PNG files. This will create PNG files in the axial, coronal and sagittal directions. You can check the help file by typing
+
+  ```
+  python MakePngs_HighRes.py --help
+  ```
+  You positional arguments are:
+  
+   - bg_fname              File name for background .nii.gz image
+   - overlay_fname         File name for overlay .nii.gz image
+   - output_dirname        Output directory for .png images
+  
+  In addition, if you would like to change the overlay of the brain to another colourmap (e.g. gray) you can do this with the -cm2 command. For example, I would like to use colourmap "gray", my bg_fname is Example_Participant/high_res.nii.gz,  my overlay_fname is Example_Participant/high_res.nii.gz and my output_dirname is Example_Participant/PNGs
+  ```
+  python MakePngs_HighRes.py -cm2 gray Example_Participant/high_res.nii.gz Example_Participant/high_res.nii.gz Example_Participant/PNGs
+  ```
+  
+4. Open ImageJ to create a video of your PNGs files.
+  File -> Import -> Image Sequence
+  Then you nagivate to the folder that holds all your PNGs and choose that folder.
 
 
 
