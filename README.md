@@ -58,10 +58,16 @@ After you have downloaded all your programs you are ready to create your PNG fil
   python MakePngs_HighRes.py -cm2 gray Example_Participant/high_res.nii.gz Example_Participant/high_res.nii.gz Example_Participant/PNGs
   ```
   
-4. Open ImageJ to create a video of your PNGs files.
-  File -> Import -> Image Sequence
-  Then you nagivate to the folder that holds all your PNGs and choose that folder.
+4. Open ImageJ to create a video of your PNGs files: 
 
+File -> Import -> Image Sequence
+  
+Then you nagivate to the folder that holds all your PNGs and choose that folder. In the sequence options box type your preferred direction in the "File name contains" box, e.g. axial, and click OK. This will create your video in a new window. 
+
+While having that window selected, click File -> Save As -> AVI.. In the diaglog box that appears, keep the compression option to JPEG and choose your frame rate. The default frame rate of 7 should be fine. Click ok and name file as appropriate in your folder of choice, e.g. axial_movie.avi in the Example_Participant folder.
+
+## Outcome 2.
+ Give your participant a flashdrive or dvd with the .zip file for the mricron program and their ```high_res.nii.gz``` brain scan file in a folder with additional instructions. And include you new axial, sagittal and coronal .avi video files for more excitement.
 
 
 
